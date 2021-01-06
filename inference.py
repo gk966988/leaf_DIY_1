@@ -11,7 +11,7 @@ import numpy as np
 from PIL import Image
 
 
-config_files = ['./configs/efficientnetb5.yaml', './configs/efficientnetb7.yaml', './configs/Resnest200.yaml']
+config_files = ['../input/leaf-diy-1/configs/efficientnetb5.yaml', '../input/leaf-diy-1/configs/efficientnetb7.yaml', '../input/leaf-diy-1/configs/Resnest200.yaml']
 
 
 class Prediction():
