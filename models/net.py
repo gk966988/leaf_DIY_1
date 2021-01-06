@@ -66,7 +66,7 @@ class efficientnet(nn.Module):
         super(efficientnet, self).__init__()
         # self.model = EfficientNet.from_pretrained(size_dict[size])
         # self.feature_size = feature_dict[size]
-        state = model_zoo.load_url(url_path[weight_path][net_name])
+        state = torch.load(url_path[weight_path][net_name])
         model = EfficientNet.from_name(net_name)
         model.load_state_dict(state)
         self.model = model
