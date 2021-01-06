@@ -4,7 +4,7 @@ _C.MODEL = CN()
 _C.MODEL.DEVICE_ID = '0,1'
 _C.MODEL.NAME = 'efficientnet-b5'
 _C.MODEL.LOSS_WAY = 'all'
-_C.MODEL.MODEL_PATH = './weights/'
+_C.MODEL.MODEL_PATH = '/kaggle/input/leaf-diy-1/weights/'
 _C.MODEL.WEIGHT_FROM = 'kaggle'
 _C.MODEL.CLASSES = 5
 
